@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>home</title>
+</head>
+<body style="background-image: none"></body>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="over-mij.html">Overmij</a></li>
+        <li><a href="projecten.html">Projecten/Vaardigheden</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+    </ul>
+    <br><br><br><br><div class="padding-64 content text-grey" id="contact">
+            <h2 class="text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="opacity">
+        
+            <div class="section">
+              <p><i class="fa fa-map-marker fa-fw text-white xxlarge margin-right"></i> Mijdrecht, NL</p>
+              <p><i class="fa fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: +31 0629486219</p>
+              <p><i class="fa fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: Tarikc2003@outlook.com/Tarik.Chemlali@student-rocva.nl</p>
+            </div><br>
+            <p>Lets get in touch. Send me a message:</p>
+        
+            <form>
+              <p><input id="name" class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+              <p><input id="email" class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
+              <p><input id="subject" class="input padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+              <p><input id="body" class="input padding-16" type="text" placeholder="Message" required name="Message"></p>
+              <p>
+                <button class="button light-grey padding-large" type="submit" onclick="senMail()">
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </p>
+            </form>
+            <img src="MBO-College-Amstelland_teaser.jpg" style="width:30%;position:absolute;right: 20%;top:50%;">
+            <script>
+                function senMail() {
+                    var name = document.getElementById("name").value;
+                    var email = document.getElementById("email").value;
+                    var subject = document.getElementById("subject").value;
+                    var body = document.getElementById("body").value;
+                    var link = "mailto:Tarikc2003@outlook.com"
+                        +"?cc="+email
+                        +"&subject=" + escape(subject)
+                        +"&body=" + escape(name+ " | "+ body);
+                    
+                    window.location.href = link;
+                }
+            </script>
+            <SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+              <!--
+              var nu = new Date();
+              var dag = nu.getDate();
+              var dag2 = ((dag < 10) ? "0" : "") + dag;
+              var maand = nu.getMonth() + 1;
+              var maand2 = ((maand < 10) ? "0" : "") + maand;
+              var jaar = nu.getYear();
+              var jaar4 = ((jaar < 1900) ? (jaar + 1900) : (jaar));
+              
+              document.write(dag2 + "-" + maand2 + "-" + jaar4);
+              </SCRIPT>
+              <div id="qp_all2596363" style="width:100%;max-width:300px;"><STYLE>#qp_main2596363 .qp_btna:hover input {background:rgb(150,150,150)!important}</STYLE><div id="qp_main2596363" fp='efaC3964-74' results=0 cmt=0 style="border-radius:6px;text-align:left;border:1px solid rgb(150,150,150);margin:0 auto;padding:10px;background:rgb(255,255,255);box-sizing:border-box"><div style="border-radius:6px;font-family:Arial;font-size:12px;font-weight:bold;background-color:rgb(44,44,44);color:rgb(255,255,255);margin-bottom:10px"><div style="padding:10px">Vind u dit een nuttige website</div></div><form id="qp_form2596363" action="//www.poll-maker.com/results2596363xefaC3964-74" method="post" target="_blank" style="display:inline;margin:0px;padding:0px"><div style="border-radius:6px"><input type=hidden name="qp_d2596363" value="43775.9086921202-43775.9086804461"><div style="display:block;font-family:Arial;font-size:12px;color:rgb(0,0,0);padding-top:5px;padding-bottom:5px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:18px;margin-left:-25px;margin-top:-2px;padding:0px;height:18px;-webkit-appearance:radio;" name="qp_v2596363" type="radio" value="1" />Ja</span></div><div style="display:block;font-family:Arial;font-size:12px;color:rgb(0,0,0);padding-top:5px;padding-bottom:5px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:18px;margin-left:-25px;margin-top:-2px;padding:0px;height:18px;-webkit-appearance:radio;" name="qp_v2596363" type="radio" value="2" />Nee</span></div></div><div style="clear:both;text-align:left;margin:0 auto 0em auto"><a style="text-decoration:none" class="qp_btna" href="#"><input name="qp_b2596363" style="min-width:7em;padding:0.5em;margin-top:5px;margin-right:5px;border-radius:10px;border:1px solid rgb(150,150,150);font-family:Arial;font-size:12px;font-weight:bold;color:rgb(0,0,0);cursor:pointer;cursor:hand;background:rgb(200,200,200)" type="submit" btype="v" value="Vote" /></a><a style="text-decoration:none" class="qp_btna" href="#"><input name="qp_b2596363" style="min-width:7em;padding:0.5em;margin-top:5px;margin-right:5px;border-radius:10px;border:1px solid rgb(150,150,150);font-family:Arial;font-size:12px;font-weight:bold;color:rgb(0,0,0);cursor:pointer;cursor:hand;background:rgb(200,200,200)" type="submit" btype="r" value="Results" /></a></div></form><div style="display:none"><div id="qp_rp2596363" style="font-size:11px;width:5ex;text-align:right;overflow:hidden;position:absolute;right:5px;height:1.5em;line-height:1.5em"></div><div id="qp_rv2596363" style="font-size:11px;width:0%;line-height:1.5em;text-align:right;color:#FFF;box-sizing:border-box;padding-right:3px"></div><div id="qp_rb2596363" style="font-size:12px;color:rgb(255,255,255);display:block;font-size:12px;padding-right:10px 5px"></div><div id="qp_rva2596363" style="background:#006FB9;border-color:#006FB9"></div><div id="qp_rvb2596363" style="background:#163463;border-color:#163463"></div><div id="qp_rvc2596363" style="background:#5BCFFC;border-color:#1481AB"></div></div></div><div style='text-align:center; margin:5px;'><a id="qp_foot2596363" href="https://linkto.run/e/TF2ATJB3">Made By Tarik</a></div></div><script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>
+    </div>
+</body>
+</html>
